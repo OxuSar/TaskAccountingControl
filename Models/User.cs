@@ -9,14 +9,14 @@ namespace Models
     public  class User
     {
         public  int ID;
-        public string Name {get; set;}
-        public string Phone { get; set; }
-        public string Specialization { get; set; }
+        public string userName { get; set;}
+        public string password { get; set;}
+        public bool isAdmin { get; set;}
+        public DateTime date { get; set;}
+        public string phone { get; set; }
+        public string specialization { get; set; }
         public byte img { get; set; }
-        public Admin Admin { get; set; }
 
-        public int ExercisesId { get; set; }
-        public List<Exercises> exercises { get; set; }
 
     }
 }
